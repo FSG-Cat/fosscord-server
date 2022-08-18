@@ -21,3 +21,4 @@ bundle/depclean.*
 tmp/
 assets/cache/
 *.generated
+initial.json

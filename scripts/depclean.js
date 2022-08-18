@@ -3,7 +3,6 @@ const fs = require("fs");
 const { env } = require("process");
 const { execSync } = require("child_process");
 const { argv, stdout, exit } = require("process");
-
 const { execIn, getLines } = require("./utils");
 
 const bundleRequired = ["@ovos-media/ts-transform-paths"];
